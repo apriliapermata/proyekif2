@@ -1,0 +1,115 @@
+.mt-2 {
+  color: white;
+}
+.col {
+  color: white;
+  text-align: center;
+}
+.gambar {
+  width: 60px;
+}
+.action {
+  width: 30px;}
+
+.teks {
+  margin-top: 30px;
+}
+.teks2 {
+  background-color: #9966339e;
+
+  padding: 50px;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  height: auto;
+}
+.table > tbody > tr > * {
+  vertical-align: middle;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.btn {
+  margin: 5px;
+  background-color: rgb(
+    86,
+    40,
+    0
+  ); /* Ganti warna latar belakang sesuai keinginan Anda */
+  color: white;
+}
+
+body {
+  background-image: url("/img/coffeeshop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.teks {
+  color: #ffffff; /* Anda juga bisa menggunakan kode warna hexadecimal */
+}
+/* html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  }
+  /* nav {
+    width: 100%;
+    background: #262626;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  } */
+/* ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  li {
+    float: left;
+  }
+  a {
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #section1 {
+    height: 700px;
+    background: pink;
+    display: inline-block;
+    width: 100%;
+  } */
+/* #section2 {
+    height: 700px;
+    background: rgb(163, 98, 186);
+    display: inline-block;
+    width: 100%;
+  }
+  #section3 {
+    height: 700px;
+    background: rgb(158, 180, 223);
+    display: inline-block;
+    width: 100%;
+  }
+  #section4 {
+    height: 700px;
+    background: rgb(240, 235, 172);
+    display: inline-block;
+    width: 100%;
+  }
+  h1 {
+    margin: 100px;
+    text-align: center;
+    paddin: 0;
+  }     */

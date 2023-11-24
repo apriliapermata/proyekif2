@@ -55,4 +55,11 @@ abstract class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
-}
+    protected $db;
+
+        public function __construct()
+        {
+            // Initialize the database connection in the constructor
+            $this->db = \Config\Database::connect();
+        }
+    }

@@ -2,28 +2,70 @@
   color: white;
 }
 .col {
-  color: white;
+  color:white;
   text-align: center;
+  
 }
 .gambar {
   width: 60px;
 }
-.action {
-  width: 30px;}
-
 .teks {
   margin-top: 30px;
 }
-.teks2 {
-  background-color: #9966339e;
-
-  padding: 50px;
-  margin-top: 100px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  height: auto;
+.section-header{
+  margin-top: 10px;
 }
+.mb-4 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.teks2 {
+  position: absolute; /* Mengatur posisi absolut */
+  top: 0; /* Meletakkan teks ke bagian bawah */
+  right: 0; 
+  display: block !important; /* Mengubah tampilan menjadi block untuk menempatkannya di baris baru */
+  font-size: 30px;
+  font-style: italic;
+  color:white;
+  text-align: right; /* Menjadikan teks menjadi rata kanan di dalam elemen */
+  margin-top:50px;
+  width: fit-content;
+  opacity: 0; /* Atur opasitas menjadi 0 (teks tidak terlihat) */
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.teks3 {
+  position: absolute; /* Mengatur posisi absolut */
+  bottom: 0; /* Meletakkan teks ke bagian bawah */
+  right: 0; /* Meletakkan teks ke sisi kiri */
+  font-size: 30px;
+  font-style: italic;
+  color:white;
+  margin-bottom: 250px;
+  width: fit-content;
+  opacity: 0; /* Set opacity to 0 initially */
+  animation-name: fadeIn; /* Tentukan nama animasi */
+  animation-duration: 1.5s; /* Durasi animasi */
+  animation-fill-mode: forwards; /* Tahan animasi pada akhir setelah selesai */
+  animation-delay: 1.0s; /* Delay animasi selama 1.5 detik */
+}
+
+/* Animasi fadeIn */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Animasi fadeIn */
+@keyframes fadeIn {
+  from { opacity: 0; } /* Awal animasi, teks tidak terlihat */
+  to { opacity: 1; }
+
+}
+
 .table > tbody > tr > * {
   vertical-align: middle;
 }
@@ -50,8 +92,58 @@ body {
 }
 
 .teks {
-  color: #ffffff; /* Anda juga bisa menggunakan kode warna hexadecimal */
+  color:white; /* Anda juga bisa menggunakan kode warna hexadecimal */
 }
+
+.section {
+  color:white; 
+  text-align: center;
+  /* Anda juga bisa menggunakan kode warna hexadecimal */
+}
+
+.nav-link.active {
+  font-weight: bold; /* Menjadikan teks tebal */
+  color: rgb(3, 3, 3); /* Warna teks yang diinginkan untuk tautan yang aktif */
+  /* Gaya lain yang diinginkan */
+}
+.navbar a:hover {
+  background-color: rgba(71, 34, 1, 0.614);
+  color: black;
+}
+/* CSS untuk membuat bagian kontak berada di sebelah kiri */
+/* CSS untuk mengatur posisi konten dalam .contact-section */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 20px;
+  justify-content: flex-start; /* Menggeser konten ke kiri */
+  
+    margin-top: 60px; /* Memberikan ruang di atas bagian "Contact Us" */
+
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.contact-icons img {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.contact-section h1 {
+  text-align: left;
+  margin-bottom: 20px; /* Memberikan ruang di bawah tulisan "Contact Us" */
+}
+
+.action {
+  max-width: 50px; /* Adjust the maximum width as needed */
+  max-height: 50px; /* Adjust the maximum height as needed */
+}
+
 /* html {
     scroll-behavior: smooth;
   }

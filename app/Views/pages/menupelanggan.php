@@ -23,7 +23,7 @@
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td><img src="/img/kopi1.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/kopi1.png" alt=" " class="gambar"></td>
                         <td>001</td>
                         <td>Minuman</td>
                         <td>Espresso</td>
@@ -35,7 +35,7 @@
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                        <td><img src="/img/kopi2.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/kopi2.png" alt=" " class="gambar"></td>
                         <td>002</td>
                         <td>Minuman</td>
                         <td>Moccacino</td>
@@ -47,7 +47,7 @@
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td><img src="/img/ice tea.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/ice tea.png" alt=" " class="gambar"></td>
                         <td>003</td>
                         <td>Minuman</td>
                         <td>Lemon Tea</td>
@@ -59,7 +59,7 @@
                     </tr>
                     <tr>
                         <th scope="row">4</th>
-                        <td><img src="/img/strawberry cocktail.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/strawberry cocktail.png" alt=" " class="gambar"></td>
                         <td>004</td>
                         <td>Minuman</td>
                         <td>Strawberry Cocktail</td>
@@ -71,7 +71,7 @@
                     </tr>
                     <tr>
                         <th scope="row">5</th>
-                        <td><img src="/img/matcha chocolate.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/matcha chocolate.png" alt=" " class="gambar"></td>
                         <td>005</td>
                         <td>Minuman</td>
                         <td>Matcha Chocolate</td>
@@ -83,7 +83,7 @@
                     </tr>
                     <tr>
                         <th scope="row">6</th>
-                        <td><img src="/img/Fruit Cocktail.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/Fruit Cocktail.png" alt=" " class="gambar"></td>
                         <td>006</td>
                         <td>Minuman</td>
                         <td>Fruit Cocktail</td>
@@ -95,7 +95,7 @@
                     </tr>
                     <tr>
                         <th scope="row">7</th>
-                        <td><img src="/img/cream cake.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/cream cake.png" alt=" " class="gambar"></td>
                         <td>007</td>
                         <td>Makanan</td>
                         <td>Cream Cake</td>
@@ -107,7 +107,7 @@
                     </tr>
                     <tr>
                         <th scope="row">8</th>
-                        <td><img src="/img/cheesecake.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/cheesecake.png" alt=" " class="gambar"></td>
                         <td>008</td>
                         <td>Makanan</td>
                         <td>Cheese Cake</td>
@@ -119,7 +119,7 @@
                     </tr>
                     <tr>
                         <th scope="row">9</th>
-                        <td><img src="/img/croissant.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/croissant.png" alt=" " class="gambar"></td>
                         <td>009</td>
                         <td>Makanan</td>
                         <td>Croissant</td>
@@ -131,7 +131,7 @@
                     </tr>
                     <tr>
                         <th scope="row">10</th>
-                        <td><img src="/img/ice cream.jpg" alt=" " class="gambar"></td>
+                        <td><img src="/img/ice cream.png" alt=" " class="gambar"></td>
                         <td>010</td>
                         <td>Makanan</td>
                         <td>Ice Cream</td>

@@ -21,4 +21,10 @@ $routes->get('homekaryawan', 'HomeKaryawan::index');
 $routes->get('menu', 'PagesKaryawan::menu');
 $routes->get('/menu/tambahmenu', 'PagesKaryawan::tambahMenu');
 $routes->get('datapelanggan','PagesKaryawan::pelanggan');
-$routes->get('laporan', 'PagesKaryawan::laporan');
+$routes->get('laporan', 'PagesKaryawan::keuangan');
+
+$routes->get('/qrcode', 'QRCodeController::index');
+$routes->get('/qrcode/generate', 'QRCodeController::generateQRCode');
+$routes->get('tambahdata', 'PagesKaryawan::create');
+$routes->post('datapelanggan', 'PagesKaryawan::store');
+$routes->get('editdata/(:segment)', 'PagesKaryawan::edit/$1');

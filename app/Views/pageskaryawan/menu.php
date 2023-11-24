@@ -114,7 +114,7 @@
                                 <td><?= $m['kategori'] ?></td>
                                 <td><?= $m['namaProduk'] ?></td>
                                 <td>Rp <?= $m['harga'] ?></td>
-                                <td><img src="<?= base_url('img/' . $m['action']) ?>" alt="Action" class="action"></td>
+                                <td><img src="<?= base_url('img/' . $m['action']) ?>" alt="Action" class="action" ></td>
 
                             <?php endforeach; ?>
                     </tbody>
